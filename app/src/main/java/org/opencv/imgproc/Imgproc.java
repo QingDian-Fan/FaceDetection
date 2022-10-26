@@ -2316,7 +2316,6 @@ public class Imgproc {
      * Calculates eigenvalues and eigenvectors of image blocks for corner detection.
      * For every pixel \(p\) , the function cornerEigenValsAndVecs considers a blockSize \(\times\) blockSize
      * neighborhood \(S(p)\) . It calculates the covariation matrix of derivatives over the neighborhood as:
-     *
      * \(M =  \begin{bmatrix} \sum _{S(p)}(dI/dx)^2 &amp;  \sum _{S(p)}dI/dx dI/dy  \\ \sum _{S(p)}dI/dx dI/dy &amp;  \sum _{S(p)}(dI/dy)^2 \end{bmatrix}\)
      *
      * where the derivatives are computed using the Sobel operator.
